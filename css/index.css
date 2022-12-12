@@ -1,0 +1,54 @@
+body {
+  padding-top: 70px;
+}
+
+#mainNav {
+  background-color: purple;
+}
+
+#mainNav a img {
+  height: 100px;
+  position: relative;
+  right: 67px;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+}
+
+.jumbotron {
+  padding-bottom: 0px;
+  margin-bottom: 0px !important;
+}
+
+#skills {
+  background-image: url(../Images/Code-Background.jpg);
+  background-size: cover;
+  padding: 1rem 2rem;
+}
+
+#skills h1 {
+  color: whitesmoke;
+  padding-left: 15px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 10rem;
+  border-radius: 0.5rem !important;
+  background-color: #f8f9fa;
+}
+
+.card h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+}
+
+#python {
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
