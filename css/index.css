@@ -19,6 +19,12 @@ body {
 .jumbotron {
   padding-bottom: 0px;
   margin-bottom: 0px !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.5) 90%,
+    #000000 100%
+  );
 }
 
 #skills {
@@ -51,4 +57,16 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 580px) {
+  body {
+    padding-top: 110px;
+  }
+}
+
+@media (max-width: 440px) {
+  body {
+    padding-top: 150px;
+  }
 }
