@@ -54,9 +54,35 @@ body {
 
 #python {
   padding-top: 0rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+}
+
+#projects {
+  padding: 1rem 2rem;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 0%,
+    #000000 100%
+  );
+}
+
+#projects h1 {
+  padding-left: 15px;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.card-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-size: 1rem;
+}
+
+#project-1 {
+  width: 1000px;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 580px) {
