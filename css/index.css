@@ -57,6 +57,7 @@ section h2 {
 #skills {
   background-image: url(../Images/Code-Background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 1rem 2rem;
 }
 
@@ -128,7 +129,7 @@ section h2 {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: purple;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -139,13 +140,15 @@ section h2 {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: purple;
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
+  transition: box-shadow 0.2s;
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0px 0px 20px purple;
 }
 .contact-section .social a:active {
   color: #fff;
@@ -153,6 +156,34 @@ section h2 {
 
 .bg-black {
   background-color: grey !important;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
 }
 
 @media (max-width: 580px) {
